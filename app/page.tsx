@@ -65,7 +65,7 @@ export default function Home() {
 
   const { pending } = useFormStatus();
   return (
-    <main className=" h-full w-full items-center justify-center px-8 py-12 bg-secondary">
+    <main className=" flex sm:h-screen sm:w-screen h-full w-full items-center justify-center p-12 bg-secondary">
       {finish ? (
         <CardWrapper
           label="Terima kasih kerana berdaftar dengan kami. Kami akan hubungi anda dan masukkan anda ke dalam Whatsapp Group Mengaji Online setelah siap menyemak maklumat dan dokumen anda."
