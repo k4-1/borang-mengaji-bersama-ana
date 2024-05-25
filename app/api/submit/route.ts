@@ -1,13 +1,5 @@
 import { RegisterSchema } from "@/schema";
 import { google } from "googleapis";
-import { NextApiRequest } from "next";
-
-type SheetForm = {
-  nama: string;
-  umur: number;
-  alamat: string;
-  tahap: string;
-};
 
 export async function POST(req: Request) {
   const reqJson = await req.json();

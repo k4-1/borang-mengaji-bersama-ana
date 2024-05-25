@@ -25,7 +25,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import Link from "next/link";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -62,8 +61,6 @@ export default function Home() {
       setFinish(true);
       form.reset();
     }
-
-    // alert(content.data.tableRange);
   };
 
   const { pending } = useFormStatus();
